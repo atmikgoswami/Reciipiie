@@ -14,6 +14,15 @@ android {
     namespace = "com.example.reciipiie"
     compileSdk = 34
 
+    signingConfigs {
+        create("release") {
+            keyAlias = "key0"
+            keyPassword = "Ujan@2004"
+            storeFile = file("D:\\AndroidStudioProjects\\Reciipiie\\app\\Keystore\\reciipiie.jks")
+            storePassword = "Ujan@2004"
+        }
+    }
+
     defaultConfig {
         applicationId = "com.example.reciipiie"
         minSdk = 24
@@ -37,6 +46,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {
