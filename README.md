@@ -8,7 +8,7 @@
 
 ## Installation ⬇️
 
-<a href="https://github.com/atmikgoswami/Reciipiie/app/debug/app-debug.apk"><img alt="Get it on GitHub" src="https://user-images.githubusercontent.com/69304392/148696068-0cfea65d-b18f-4685-82b5-329a330b1c0d.png" height=80px /> 
+<a href="https://github.com/atmikgoswami/Reciipiie/blob/master/app/debug/app-debug.apk"><img alt="Get it on GitHub" src="https://user-images.githubusercontent.com/69304392/148696068-0cfea65d-b18f-4685-82b5-329a330b1c0d.png" height=80px /> 
 
 
 <h2>Project Screenshots:</h2>
